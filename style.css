@@ -97,16 +97,15 @@
 
   #github-span:hover::after {
     content: "Link to GitHub repository page";
-    /* position: absolute; */
-    left: 0px;
-    bottom: 24px;
+    position: relative;
+    bottom: 20px;
+    right: 100px;
     min-width: 200px;
     border: 1px #aaaaaa solid;
-    background-color: var(--background);
-    padding: 10px;
+    background-color: darkblue;
+    padding: 2px;
     color: var(--fontColor);
     font-size: 10px;
-    z-index: 1;
   }
   
   @media screen and (max-width: 768px) {
