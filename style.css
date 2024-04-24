@@ -1,7 +1,8 @@
 :root {
   --fontColor: rgb(217, 217, 227);
   --backGround: rgb(11, 11, 108);
-  --FontType: "Chakra Petch"
+  --backGroundB: #62aee8;
+  --FontType: "Chakra Petch";
 }
 
 * {
@@ -62,7 +63,7 @@
   
   .works {
     flex: 4;
-    background-color: #62aee8;
+    background-color: var(--backGroundB);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -70,9 +71,10 @@
   }
   
   .card {
-    border-style: solid;
+    background-color: var(--backGroundB);
+    /* border-style: solid;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 10px; */
     padding: 10px;
     flex: 0 0 400px;
     opacity: 0.7;
